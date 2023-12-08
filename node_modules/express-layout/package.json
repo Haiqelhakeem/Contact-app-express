@@ -1,0 +1,45 @@
+{
+  "name": "express-layout",
+  "description": "Adds layout support to Express",
+  "version": "0.1.0",
+  "homepage": "https://github.com/uber/express-layout",
+  "author": {
+    "name": "Matt Morgan",
+    "email": "matt@mlmorg.com",
+    "url": "http://mlmorg.com"
+  },
+  "keywords": [
+    "express",
+    "layout"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/uber/express-layout.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uber/express-layout/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/uber/express-layout/blob/master/LICENSE"
+    }
+  ],
+  "main": "lib/express-layout",
+  "dependencies": {
+    "obj-extend": "~0.1.0"
+  },
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "express": "~3.4.4",
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-jshint": "~0.7.2",
+    "jade": "~0.35.0",
+    "mocha": "~1.14.0",
+    "request": "~2.27.0"
+  },
+  "scripts": {
+    "test": "grunt && mocha -R spec"
+  }
+}
